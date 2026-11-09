@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "1c-rag": {
+      "type": "http",
+      "url": "${RAG_MCP_URL:-http://localhost:9000/mcp}"
+    },
+    "mssql-mcp": {
+      "type": "http",
+      "url": "${MSSQL_MCP_URL:-http://localhost:9001/mcp}"
+    }
+  }
+}

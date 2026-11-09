@@ -1,0 +1,13 @@
+# Вивантаження конфігурації і кеш форм — локальні, не публікуються
+configuration/
+.formbin-cache/
+
+# Локальні налаштування і облікові дані
+.1c-devbase.ps1
+.1c-devbase.bat
+.claude/settings.local.json
+.env
+*.local.json
+
+# Нотатки сесій
+session-notes.md
