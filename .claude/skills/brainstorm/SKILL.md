@@ -72,7 +72,7 @@ allowed-tools:
 | Логика в хранимой процедуре SQL (в коде `exec [dbo].[...]`, `МодульSQL.ВыполнитьЗапрос`) | `query_sql`: `OBJECT_DEFINITION`, `sys.sql_expression_dependencies` — см. `/1c-sql-structure` |
 
 Если кеш `.formbin-cache` отсутствует или старше выгрузки — обнови его (`form-bin-export.ps1`, см. `/form-bin`).
-`bslsyntax_*` недоступны (справка не загружена) — поведение методов платформы помечай как непроверенное.
+Поведение методов платформы проверяй по справке синтаксиса: `bslsyntax_get_details` (точное имя), `bslsyntax_search_method` / `bslsyntax_search_global_function` / `bslsyntax_search_property` (по описанию).
 Если MCP-сервер недоступен — **скажи явно** и продолжай с тем, что есть. Не подменяй источник молча.
 
 ## Процесс
